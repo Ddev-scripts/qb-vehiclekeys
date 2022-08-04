@@ -4,7 +4,7 @@ FORK FROM : https://github.com/qbcore-framework/qb-vehiclekeys
 
 ## Why this fork?
 Fivem's native door status functions are unreliable.
-I have implemented a decorator system to improve the status of the doors
+I have implemented a decors system to improve the status of the doors
 
 ## Installation
 You need to replace the native :
