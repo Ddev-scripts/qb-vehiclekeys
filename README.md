@@ -9,7 +9,8 @@ I have implemented a decorator system to improve the status of the doors
 ## Installation
 You need to replace the native :
 
-```lua SetVehicleDoorsLocked() 
+```lua 
+SetVehicleDoorsLocked() 
 ```
 function with my export function below. 
 This is because my resource uses sets that sync much better and when you use the native function to lock/unlock a vehicle, the vehicle sets are not updated, causing sync issues. 
